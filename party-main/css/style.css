@@ -1,0 +1,116 @@
+.text-pink{
+    color: #C46F71;
+}
+.bg-pink{
+    background-color: #C46F71;
+}
+header{
+    background-image: linear-gradient(#cc002255 20% 90%),url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+a{
+    cursor: pointer;
+}
+h1{
+    font-size: 5rem;
+}
+/* ***************************** */
+#aside{
+    position: fixed;
+    z-index: 99999;
+    height: 100%;
+}
+#aside .menu{
+    display: none;
+    overflow-x: hidden;
+    background-color: black;
+    padding-top: 200px;
+}
+#aside .sideBar{
+    display: flex;
+    height: 100%;
+}
+#aside .menu li{
+    padding: 30px 50px;
+}
+#aside .menu a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+#aside .close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#aside .open{
+    display: flex;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(50%);
+}
+#aside .open a{
+    transition: 0.3s;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#aside a:hover{
+    color: brown;
+}
+/* ******************* */
+#duration .p{
+    display: none;
+}
+#duration .header{
+    cursor: pointer;
+}
+/* ******************* */
+#details {
+    background-image: linear-gradient(#cc002255 20% 80%),url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#details .row div div{
+    padding: 4rem;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+/* ************************ */
+#contact span,#contact a {
+    padding-block: 1.25rem;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+.mail{
+    color: #BB2D3B !important;
+}
+.icons{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.icons a{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin: 15px;
+    border: 1px solid #000 !important;
+    transition: 0.5s;
+}
+.icons a:hover{
+    color:#fff !important;
+    background-color: #BB2D3B;
+    scale: 1.25;
+}
+.form input{
+    margin-block: 1rem;
+}
